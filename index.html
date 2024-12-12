@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Capstone Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/styles.min.css"
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="headerWrapper">
+      <header>
+        <a href="index.html"
+          ><img
+            src="images/logo1x.png"
+            alt="logo"
+            width="60"
+            height="67"
+            srcset="
+              images/logo1x.png 1x,
+              images/logo2x.png 2x,
+              images/logo3x.png 3x
+            "
+        /></a>
+        <div>
+          <span>Capstone Design</span>
+          <p>The Pinnacle of Design</p>
+        </div>
+        <div id="hamburger">
+          <span class="top"></span>
+          <span class="bottom"></span>
+        </div>
+      </header>
+    </div>
+    <!-- end header wrapper -->
+
+    <div id="navWrapper">
+      <nav>
+        <ul id="theNav">
+          <li class="parent">
+            <a href="#">Our Team</a>
+            <ul>
+              <li><a href="#">Nolan</a></li>
+              <li><a href="#">Gary</a></li>
+              <li><a href="#">Jerry</a></li>
+              <li><a href="#">Gerry</a></li>
+            </ul>
+          </li>
+          <li class="parent">
+            <a href="#">Our Offices</a>
+            <ul>
+              <li><a href="#">New York</a></li>
+              <li><a href="#">Orem</a></li>
+              <li><a href="#">Coppenhagen</a></li>
+            </ul>
+          </li>
+          <li class="active"><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- end nav wrapper -->
+
+    <div id="mainWrapper">
+      <main>
+        <h1>Best Practices</h1>
+        <div class="hero">
+          <video width="800" height="300" autoplay inline loop muted>
+            <source src="media/herovideo-hb.webm" type="video/webm" />
+            <source src="media/herovideo-hb.mp4" type="video/mp4" />
+          </video>
+          <div>
+            <p>Design Your Companies Future.</p>
+          </div>
+        </div>
+        <h2>Our Services</h2>
+        <div class="cards">
+          <section>
+            <img src="images/help-branding.webp" alt="a group around a table" width="300" height="200" class="e2e" />
+            <h2>Branding</h2>
+            <ul>
+              <li>Visual Identity</li>
+              <li>Brand Strategy</li>
+              <li>Logo Design</li>
+              <li>Iconography</li>
+              <li>Packaging Design</li>
+            </ul>
+        </section>
+        <section>
+            <img src="images/help-design.webp" alt="various floating screens and data" width="300" height="200" class="e2e" />
+            <h2>Design</h2>
+            <ul>
+              <li>Website Design</li>
+              <li>UX/UI Design</li>
+              <li>Mobile App Design</li>
+              <li>Animation</li>
+              <li>Graphics & Illustration</li>
+            </ul>
+        </section>
+        <section>
+            <img src="images/help-development.webp" alt="people gathered around a computer" width="300" height="200" class="e2e" />
+            <h2>Development</h2>
+            <ul>
+              <li>AWS Development</li>
+              <li>Digital Ocean Development</li>
+              <li>Custom PHP Development</li>
+              <li>Application Development</li>
+              <li>Github & Netlify</li>
+            </ul>
+        </section>
+        <section>
+            <img src="images/help-marketing.webp" alt="a wheel of icons in front of a man in a suit" width="300" height="200" class="e2e" />
+            <h2>Marketing</h2>
+            <ul>
+              <li>Marketing</li>
+              <li>Digital Strategy</li>
+              <li>Marketing Strategy</li>
+              <li>SEO Strategy</li>
+              <li>Google Hacking</li>
+            </ul>
+        </section>
+        </div>
+        <h2>Our Clients</h2>
+        <div id="clients">
+          <img src="images/client-A.webp" alt="3M Logo" width="150" height="50">
+          <img src="images/client-B.webp" alt="Cisco Logo" width="150" height="50">
+          <img src="images/client-C.webp" alt="Google Logo" width="150" height="50">
+          <img src="images/client-D.webp" alt="NBC Logo" width="150" height="50">
+          <img src="images/client-E.webp" alt="Chanel Logo" width="150" height="50">
+          <img src="images/client-F.webp" alt="Microsoft Logo" width="150" height="50">
+        </div>
+      </main>
+    </div>
+    <!-- end main wrapper -->
+
+    <div id="footerWrapper">
+      <footer id="main-footer">
+        <p>
+          Call us: <a href="tel:+1234567890" class="phone-link">+1 (234) 567-890</a>
+        </p>
+        <div class="location-cards">
+          <div class="location-card">
+            <h2>Orem</h2>
+            <p class="address">
+              123 Main St<br>
+              Orem, UT
+            </p>
+          </div>
+          <div class="location-card">
+            <h2>Coppenhagen</h2>
+            <p class="address">
+              456 Elm St<br>
+              Coppenhagen, DK 
+            </p>
+          </div>
+          <div class="location-card">
+            <h2>New York</h2>
+            <p class="address">
+              789 Oak St<br>
+              New York, NY
+            </p>
+          </div>
+        </div>
+        <p class="copyright">
+          &copy; <span id="currentYear"></span> &bull; Nolan Carroll
+        </p>
+      </footer>
+      
+    </div>
+    <!-- end footer wrapper -->
+    <script src="js/scripts.js" type="module"></script>
+  </body>
+</html>

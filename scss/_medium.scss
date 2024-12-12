@@ -1,0 +1,49 @@
+/* NAVIGATION STUFF GOES HERE  */
+nav ul{
+    position: absolute;
+    right: $gutter;
+    width: 200px;
+    background-color: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #aaa;
+    text-align: right;
+    display: none;
+    z-index: 10;
+    li a{
+        color: $primaryColor;
+        display: block;
+        padding: .75rem $gutter;
+        text-decoration: none;
+    }
+    li.active a{
+        background-color: $secondaryColor;
+        color: #fff;
+        font-weight: $normalWeight;
+    }
+    li:hover a{
+        text-decoration: underline 4px $accentColor;
+    }
+}
+nav ul.open{
+    display: block;
+}
+.hero div{
+    right: $gutter;
+    text-align: right;
+    left: auto;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gutter;
+    section{
+        flex-basis: calc(50% - ($gutter/2))
+    }
+}
+#clients{
+    grid-template-columns: 1fr 1fr 1fr;
+  }

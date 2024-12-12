@@ -1,0 +1,37 @@
+header, nav, main {
+    max-width: 960px;
+    margin: auto;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+#hamburger{display: none;}
+#theNav{ 
+    display: flex;
+    overflow: auto;
+    height: auto;
+    position: static;
+    box-shadow: none;
+    width: auto;
+    border-radius: 0;
+    .parent ul{
+        position: absolute;
+        right: auto;
+        text-align: left;
+    }
+    
+}
+.hero div{
+    right: 0;
+    text-align: left;
+    left: 0;
+    top: auto;
+    bottom: 2%;
+}
+.cards{
+    section{
+        flex-basis: calc(25% - ((($gutter*2)/4) + 10px))
+    }
+}
+#clients{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
