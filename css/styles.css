@@ -339,7 +339,7 @@ header div p {
 header span {
   font-size: 1.6rem;
   font-weight: 300;
-  color: #F15751;
+  color: #AF130E;
 }
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
@@ -352,7 +352,7 @@ header span {
 }
 #hamburger .top, #hamburger .bottom {
   position: absolute;
-  background-color: #F15751;
+  background-color: #AF130E;
   height: 2px;
   width: 50%;
   left: 25%;
@@ -418,14 +418,14 @@ header span {
   z-index: 9;
   list-style-type: none;
   padding: 0;
-  background-color: #F15751;
+  background-color: #AF130E;
   display: none;
 }
 .parent ul li a {
   color: #eee;
 }
 .parent ul li a:hover {
-  background-color: #ed2922;
+  background-color: #800e0a;
 }
 
 .parent:hover ul {
@@ -446,7 +446,7 @@ main p {
 }
 main h2 {
   padding-left: 10px;
-  color: #F15751;
+  color: #AF130E;
 }
 
 .hero {
@@ -480,6 +480,7 @@ main h2 {
   border-radius: 8px;
   overflow: hidden;
   margin: 0.5rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 .cards section h2,
 .cards section img {
@@ -502,7 +503,7 @@ main h2 {
 }
 .cards section ul {
   list-style-type: circle;
-  color: #F15751;
+  color: #AF130E;
 }
 .cards section ul li {
   padding: 0.25rem;
@@ -601,7 +602,7 @@ footer a {
     z-index: 10;
   }
   nav ul li a {
-    color: #F15751;
+    color: #AF130E;
     display: block;
     padding: 0.75rem 10px;
     text-decoration: none;
